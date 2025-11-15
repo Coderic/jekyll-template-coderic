@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hello - Hello World</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <meta name="color-scheme" content="light">
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/svg-xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#f97316">
+  <link rel="alternate" href="http://localhost:4000/" hreflang="x-default">
+  <meta name="author" content="Hello">
+  <meta name="title" content="Hello">
+  <meta name="description" content="A simple demo site using the Coderic Jekyll theme">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Hello World | Hello</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Hello World" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A simple demo site using the Coderic Jekyll theme" />
+<meta property="og:description" content="A simple demo site using the Coderic Jekyll theme" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Hello" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Hello World" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"A simple demo site using the Coderic Jekyll theme","headline":"Hello World","name":"Hello","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/coderic-isotipo.svg"}},"url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+  <a href="#main-content" class="skip-to-main">Skip to main content</a>
+  <div class="min-h-screen flex flex-col bg-white">
+    <!-- Header -->
+    <header class="border-t-4 border-b-8 border-orange-500 bg-white">
+      <div class="max-w-7xl mx-auto container-padding">
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 py-4 sm:py-6">
+          <a href="/" class="flex justify-start" itemscope itemtype="https://schema.org/Corporation">
+            <img src="/assets/img/coderic-isotipo.svg" itemprop="logo" alt="Hello logo" class="h-20">
+            <svg class="h-20" viewBox="0 0 300 50" version="1.1" xmlns="http://www.w3.org/2000/svg"
+              xmlns:svg="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="metal" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0%" stop-color="hsl(0,0%,58%)" />
+                  <stop offset="47%" stop-color="hsl(0,0%,80%)" />
+                  <stop offset="53%" stop-color="hsl(0,0%,38%)" />
+                  <stop offset="100%" stop-color="hsl(0,0%,58%)" />
+                </linearGradient>
+                <linearGradient id="miel" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0%" stop-color="#fec963" />
+                  <stop offset="50%" stop-color="#fea032" />
+                  <stop offset="100%" stop-color="#fe7b05" />
+                </linearGradient>
+              </defs>
+              <text
+                style="font-size:34px;
+                font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Red Hat Display';letter-spacing:-2px;fill:url(#metal);"
+                x="0" y="37.590412">HELLO World</text>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main" class="flex-1" tabindex="-1">
+      <!-- Main Navigation Portal -->
+<!-- Main Navigation Portal -->
+<nav class="bg-stone-900 shadow-lg sticky top-0 z-50" role="navigation" aria-label="Main navigation">
+  <!-- Top Bar -->
+  <div class="bg-stone-950 border-b border-stone-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-end py-2 text-sm">
+        <!-- Auth Buttons -->
+        <div class="flex items-center gap-2 text-white">
+          <div class="guest hidden">
+            <a class="flex items-center gap-1.5 px-3 py-1.5 hover:text-orange-500 transition-colors rounded" 
+              href="/" onclick="if(typeof login === 'function') { login(); return false; }">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
+              </svg>
+              <span class="hidden sm:inline">Iniciar sesión</span>
+            </a>
+          </div>
+          <div class="authenticated hidden">
+            
+          </div>
+          <div class="authenticated hidden">
+            
+          </div>
+          <div class="authenticated hidden">
+            <button onclick="if(typeof logout === 'function') { logout(); return false; }" 
+              class="flex items-center gap-1.5 px-3 py-1.5 hover:text-orange-500 transition-colors rounded">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9" />
+              </svg>
+              <span class="hidden sm:inline">Cerrar sesión</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Main Menu -->
+  <div class="bg-stone-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Mobile menu button -->
+      <div class="flex lg:hidden py-4">
+        <button type="button" class="text-white hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 rounded p-2" 
+          onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" 
+          aria-label="Toggle menu" aria-expanded="false">
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Desktop menu -->
+      
+      <ul class="hidden lg:flex items-center justify-center space-x-1">
+        
+        <li>
+          <a href="/" 
+            class="block px-6 py-6 text-white font-semibold hover:bg-stone-800 hover:text-orange-500 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500">
+            HOME
+          </a>
+        </li>
+        
+        <li>
+          <a href="/about" 
+            class="block px-6 py-6 text-white font-semibold hover:bg-stone-800 hover:text-orange-500 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-500">
+            ABOUT
+          </a>
+        </li>
+        
+      </ul>
+      
+      
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="hidden lg:hidden pb-4">
+        
+        <ul class="space-y-2">
+          
+          <li><a href="/" class="block px-4 py-3 text-white font-semibold hover:bg-stone-800 hover:text-orange-500 transition-colors rounded">HOME</a></li>
+          
+          <li><a href="/about" class="block px-4 py-3 text-white font-semibold hover:bg-stone-800 hover:text-orange-500 transition-colors rounded">ABOUT</a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Page Content -->
+<div class="bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 px-20 py-20 flex overflow-hidden relative">
+  <div class="w-full text-white py-14 relative z-10 text-center">
+    <div class="inline-flex rounded-full text-xl border-orange-500 text-orange-500 border-2 pt-1 px-4 mb-6">
+      <svg class="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M8.4,18.2C8.78,18.7,9,19.32,9,20c0,1.66-1.34,3-3,3s-3-1.34-3-3s1.34-3,3-3c0.44,0,0.85,0.09,1.23,0.26l1.41-1.77 c-0.92-1.03-1.29-2.39-1.09-3.69l-2.03-0.68C4.98,11.95,4.06,12.5,3,12.5c-1.66,0-3-1.34-3-3s1.34-3,3-3s3,1.34,3,3 c0,0.07,0,0.14-0.01,0.21l2.03,0.68c0.64-1.21,1.82-2.09,3.22-2.32l0-2.16C9.96,5.57,9,4.4,9,3c0-1.66,1.34-3,3-3s3,1.34,3,3 c0,1.4-0.96,2.57-2.25,2.91v2.16c1.4,0.23,2.58,1.11,3.22,2.32l2.03-0.68C18,9.64,18,9.57,18,9.5c0-1.66,1.34-3,3-3s3,1.34,3,3 s-1.34,3-3,3c-1.06,0-1.98-0.55-2.52-1.37l-2.03,0.68c0.2,1.29-0.16,2.65-1.09,3.69l1.41,1.77C17.15,17.09,17.56,17,18,17 c1.66,0,3,1.34,3,3s-1.34,3-3,3s-3-1.34-3-3c0-0.68,0.22-1.3,0.6-1.8l-1.41-1.77c-1.35,0.75-3.01,0.76-4.37,0L8.4,18.2z" />
+      </svg>
+      Bienvenido a Coderic Hello World
+    </div>
+    <h1 class="text-6xl font-bold mb-6 mt-2 leading-tight">
+      <span class="text-white">Hello World!</span><br />
+      <span class="text-orange-500">Coderic Jekyll Theme</span>
+    </h1>
+    <div class="text-xl mb-8 leading-relaxed text-gray-300 max-w-3xl mx-auto">
+      <p class="mb-4">Este es un sitio de demostración usando el tema <strong>jekyll-theme-coderic</strong>.</p>
+      <p class="text-lg">El tema proporciona layouts, estilos y componentes reutilizables para el ecosistema Coderic.</p>
+    </div>
+    <div class="flex gap-4 justify-center">
+      <a href="https://github.com/Coderic/jekyll-theme-coderic" class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition-all transform hover:scale-105">
+        Ver en GitHub
+      </a>
+      <a href="/about" class="bg-transparent border-2 border-white hover:bg-white hover:text-stone-900 text-white font-bold py-3 px-6 rounded-lg text-lg transition-all">
+        Acerca de
+      </a>
+    </div>
+  </div>
+</div>
+
+<section class="bg-white py-16">
+  <div class="max-w-screen-xl px-4 mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-stone-800 mb-4">Características del Tema</h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        El tema jekyll-theme-coderic incluye todo lo necesario para crear sitios modernos y profesionales.
+      </p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-lg shadow-lg border-l-4 border-orange-500">
+        <div class="text-5xl mb-4">🎨</div>
+        <h3 class="text-2xl font-bold text-stone-900 mb-3">Diseño Moderno</h3>
+        <p class="text-stone-800">
+          Diseño limpio y moderno con Tailwind CSS v4, responsive y accesible.
+        </p>
+      </div>
+      <div class="bg-white p-8 rounded-lg shadow-lg border-l-4 border-orange-500">
+        <div class="text-5xl mb-4">⚡</div>
+        <h3 class="text-2xl font-bold text-stone-900 mb-3">Fácil de Usar</h3>
+        <p class="text-stone-800">
+          Configuración simple mediante variables en _config.yml. Sin necesidad de modificar el tema.
+        </p>
+      </div>
+      <div class="bg-white p-8 rounded-lg shadow-lg border-l-4 border-orange-500">
+        <div class="text-5xl mb-4">🔧</div>
+        <h3 class="text-2xl font-bold text-stone-900 mb-3">Personalizable</h3>
+        <p class="text-stone-800">
+          Override de layouts e includes para personalizar según tus necesidades.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-stone-50 py-16">
+  <div class="max-w-screen-xl px-4 mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-stone-900 mb-6">Cómo Usar el Tema</h2>
+    </div>
+    <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8">
+      <h3 class="text-2xl font-bold text-stone-900 mb-4">Instalación</h3>
+      <ol class="list-decimal list-inside space-y-4 text-stone-800">
+        <li>
+          <strong>Agrega el tema a tu Gemfile:</strong>
+          <pre class="bg-stone-100 p-4 rounded mt-2 overflow-x-auto"><code>gem "jekyll-remote-theme"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"</code></pre>
+        </li>
+        <li>
+          <strong>Configura _config.yml:</strong>
+          <pre class="bg-stone-100 p-4 rounded mt-2 overflow-x-auto"><code>remote_theme: Coderic/jekyll-theme-coderic
+title: "Tu Sitio"
+navigation:
+  - label: "Home"
+    url: "/"</code></pre>
+        </li>
+        <li>
+          <strong>Usa el layout en tus páginas:</strong>
+          <pre class="bg-stone-100 p-4 rounded mt-2 overflow-x-auto"><code>---
+layout: page
+title: "Mi Página"
+---</code></pre>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-stone-800 text-stone-300 border-t-4 border-orange-500">
+      <div class="max-w-7xl mx-auto container-padding py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+          <nav aria-label="Documentation">
+            <h3 class="text-white font-semibold mb-3">Resources</h3>
+            <ul class="space-y-2">
+              
+                
+                  <li>
+                    <a href="https://github.com/Coderic/jekyll-theme-coderic" class="hover:text-white focus:outline-none focus:ring-2 focus:ring-orange-500 rounded px-1"
+                      aria-label="Documentation">Documentation</a>
+                  </li>
+                
+              
+            </ul>
+          </nav>
+          <nav aria-label="Legal and policies">
+            <h3 class="text-white font-semibold mb-3">Legal</h3>
+            <ul class="space-y-2">
+              
+              <li>
+                <a href="/privacy" class="hover:text-white focus:outline-none focus:ring-2 focus:ring-orange-500 rounded px-1"
+                  aria-label="Privacy policy">Privacy</a>
+              </li>
+              
+              
+              <li>
+                <a href="/legal" class="hover:text-white focus:outline-none focus:ring-2 focus:ring-orange-500 rounded px-1"
+                  aria-label="Legal information">Legal</a>
+              </li>
+              
+              
+              <li>
+                <a href="/tos" class="hover:text-white focus:outline-none focus:ring-2 focus:ring-orange-500 rounded px-1"
+                  aria-label="Terms and conditions">Terms and Conditions</a>
+              </li>
+              
+            </ul>
+          </nav>
+        </div>
+        <div class="border-t border-stone-700 pt-6 text-center text-sm">
+          <p class="mb-2">Corporation Oriented to the Development of Engineering Resources and Information for Commerce</p>
+          <p>
+            Hello <sup>©</sup> · Since September 30, 2004
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <noscript>
+    <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 m-4" role="alert">
+      <p>Please enable JavaScript to continue using this application.</p>
+    </div>
+  </noscript>
+  
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  
+  
+</body>
+</html>

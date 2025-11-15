@@ -1,0 +1,59 @@
+# Coderic Hello World - Demo Site
+# Using jekyll-theme-coderic
+
+url: ""
+baseurl: "jekyll-template-coderic"
+title: "Hello"
+description: "A simple demo site using the Coderic Jekyll theme"
+network: "WORLD"
+
+# Theme
+remote_theme: Coderic/jekyll-theme-coderic
+
+# Logo
+logo: "/assets/img/coderic-isotipo.svg"
+
+# Navigation
+navigation:
+  - label: "Home"
+    url: "/"
+  - label: "About"
+    url: "/about"
+
+# Footer Links
+footer_links:
+  - label: "Documentation"
+    url: "https://github.com/Coderic/jekyll-theme-coderic"
+
+# Legal URLs
+privacy_url: "/privacy"
+legal_url: "/legal"
+tos_url: "/tos"
+
+# Auth URLs (optional - for demo)
+# profile_url: "/profile"
+# dashboard_url: "/dashboard"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-github-metadata
+
+# Sass configuration
+sass:
+  style: compressed
+  sourcemap: never
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .asset-cache
+  - .jekyll-assets-cache
+  - .bundle
